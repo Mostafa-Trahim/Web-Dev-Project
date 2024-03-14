@@ -1,10 +1,50 @@
 import React from 'react'
 import './Header.css'
+import logo  from '../img/sprite-logo.png'
+import { FaSearch } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
+import { MdEdit } from "react-icons/md";
+
+
+
 
 const Header = () => {
   return (
     <div className='Header'>
-        Header
+        <div className='Header-left'>
+            <img src={logo} alt="logo" />
+            <nav className='Navbar'>
+                <ul>
+                    <li>🔀 Shuffle</li>
+                    <li>📱 Get App</li>
+                    <li>🏴‍☠️ Memeland</li>
+                    <li>💫 9GAG Vibes</li>
+                </ul>
+            </nav>
+
+            <div className='Header-search'>
+                <FaSearch />
+                <input type="text" placeholder='Search' />
+            </div>
+
+        </div>
+
+        <div className='Header-right'>
+
+            
+
+            <div className='Header-icons'>
+                <button>Login</button>
+                <button>Sign Up</button>
+                <FaUserCircle className='User-icon'/>
+                <button className='Post-btn'>
+                    <MdEdit className='Post-icon'/>
+                    <span>Post </span>
+                </button>
+
+            </div>
+                 
+        </div>
     </div>
   )
 }
