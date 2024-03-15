@@ -1,9 +1,11 @@
 import React from 'react'
 import './Header.css'
-import logo  from '../img/sprite-logo.png'
+import logo1 from '../img/sprite-logo.png'
 import { FaSearch } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 import { MdEdit } from "react-icons/md";
+
+import logo from '../img/logo.png'
 
 
 
