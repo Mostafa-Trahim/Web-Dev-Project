@@ -18,7 +18,7 @@ const Header = () => {
                     <li>🔀 Shuffle</li>
                     <li>📱 Get App</li>
                     <li>🏴‍☠️ Memeland</li>
-                    <li>💫 9GAG Vibes</li>
+                    <li>💫 Vibes</li>
                 </ul>
             </nav>
 
