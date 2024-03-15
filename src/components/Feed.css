@@ -1,0 +1,9 @@
+.Feed {
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 20px;
+    flex: 0.6;
+    background-color: rgb(212, 109, 109);
+    color: white;
+    height: calc(100vh - 60px);
+}

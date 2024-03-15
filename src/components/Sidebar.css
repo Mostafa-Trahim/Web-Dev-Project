@@ -1,0 +1,99 @@
+.Sidebar {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    /* background-color: #141414; */
+    /* color: white; */
+    /* text-align: center;
+    height: fit-content; */
+    height: fit-content;
+    
+}
+
+.Sidebar-SignUp {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    width: fit-content;
+    padding: 15px;
+    border: 1px solid #3f3f3f;
+    border-radius: 10px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sidebar-SignUp > h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Sidebar-SignUp > .SignUp-btn {
+    padding: 10px;
+    width: 100%;
+    background-color: #f9f9f9;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Sidebar-Categories {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 10px;
+    width: fit-content;
+    /* padding: 15px; */
+    gap: 15px;
+    /* padding: 4px 16px; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.Sidebar-Categories > h2 {
+    font-size: 14px;
+    padding: 4px 16px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.Sidebar-Categories > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Sidebar-Categories > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 6px 16px;
+    width: 100%;
+    /* font-weight: 700; */
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Sidebar-Categories > ul > li:hover {
+    background-color: #999999;
+}
+
+.Sidebar-Categories > ul > li > img {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    object-fit: contain;
+}

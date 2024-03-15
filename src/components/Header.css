@@ -10,6 +10,10 @@
     /* justify-content: flex-start; */
     justify-content: space-between;
     color: white;
+    padding: 0px 10px;
+    z-index: 999;
+    border-bottom: #4b4a4a 1px solid;
+
 }
 .Header-left {
     display: flex;
