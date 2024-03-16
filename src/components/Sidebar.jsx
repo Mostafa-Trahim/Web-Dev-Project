@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div className='Sidebar'>
         <div className='Sidebar-SignUp'>
 
-            <h2>New to 9gag?</h2>
+            <h2>New to memeHUB?</h2>
             <p>Sign up to see more content!</p>
             <button className='SignUp-btn'>Sign up</button>
         </div>
